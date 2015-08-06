@@ -39,7 +39,7 @@ import com.mongosql.utils.ParseSql;
  *Support:<br>
  *1、select * from class where id between 1 and 5 order by id DESC;<br>
  *2、select * from class where address is null; <br>
- *3、SELECT SESSIONID, SRC_IP FROM NB_TAB_HTTP WHERE clue_id in ('2','5',3);<br>
+ *3、SELECT ID, IP FROM t1 WHERE id in ('2','5',3);<br>
  *4、select * from class limit 3;<br>
  *5、SELECT a,b,c,d,e,f,g FROM test where a=1 and b='hello' and d in
  ('1',2,'a') and e between 1 and 2 and (f >3 or e<5 or g>=6) and h is
